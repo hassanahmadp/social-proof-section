@@ -1,1 +1,18 @@
-/* No CSS *//*# sourceMappingURL=styles.css.map */
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Spartan", sans-serif;
+}
+
+html {
+  font-size: 15px;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  padding: 128px 11.46%;
+}
+/*# sourceMappingURL=styles.css.map */

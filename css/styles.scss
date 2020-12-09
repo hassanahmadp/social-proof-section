@@ -1,0 +1,29 @@
+$colors: (
+  dark-grayish-magenta: hsl(303, 10%, 53%),
+  light-grayish-magenta: hsl(300, 24%, 96%),
+  very-dark-magenta: hsl(300, 43%, 22%),
+  soft-pink: hsl(333, 80%, 67%),
+);
+
+@function color($color) {
+    @return map-get($colors, $color);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Spartan", sans-serif;
+}
+
+html {
+    font-size: 15px;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    padding: 128px 11.46%;
+}
+
+
