@@ -1,0 +1,28 @@
+section.customer-reviews {
+}
+
+.review-div {
+  color: white;
+  background-color: color(very-dark-magenta);
+  height: 23.4rem * (5/8);
+  width: 35rem * (5/8);
+  padding: 4rem * (5/8) 3rem * (5/8);
+  border-radius: 8px;
+  .intro {
+    width: 100%;
+    height: auto;
+    margin-bottom: 3.6rem * (5/8);
+    img {
+      margin-right: 2rem * (5/8);
+      height: 4.2rem * (5/8);
+      width: 4.2rem * (5/8);
+      border-radius: 50%;
+      float: left;
+    }
+  }
+  p {
+    font-weight: 400;
+    font-size: 1rem;
+    // color: color(dark-grayish-magenta);
+  }
+}

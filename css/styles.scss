@@ -6,13 +6,13 @@ $colors: (
 );
 
 @function color($color) {
-    @return map-get($colors, $color);
+  @return map-get($colors, $color);
 }
 
-@mixin flex($just,$align) {
-    display: flex;
-    justify-content: $just;
-    align-items: $align;
+@mixin flex($just, $align) {
+  display: flex;
+  justify-content: $just;
+  align-items: $align;
 }
 
 * {
@@ -23,33 +23,40 @@ $colors: (
 }
 
 html {
-    font-size: 15px;
+  font-size: 15px;
 }
 
 body {
-    overflow: hidden;
-    height: 100vh;
-    width: 100vw;
-    padding: (12.8rem * (5/8)) 11.46%;
+  overflow: hidden;
+  height: 100vh;
+  width: 100vw;
+  padding: (12.8rem * (5/8)) 11.46%;
 }
 
 .desktop-background {
-    position: absolute;
+  pointer-events: none;
+  position: absolute;
 }
 
 .mobile-background {
-    position: absolute;
-    display: none;
+  pointer-events: none;
+  position: absolute;
+  display: none;
 }
 
 .top {
-    top: 0;
-    left: 0;
+  top: 0;
+  left: 0;
 }
 
 .bottom {
-    bottom: 0;
-    right: 0;
+  bottom: 0;
+  right: 0;
+}
+
+h3 {
+  font-size: 1.5rem * (5/8);
 }
 
 @import "./main";
+@import "./reviews";
