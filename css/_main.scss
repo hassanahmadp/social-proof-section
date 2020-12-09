@@ -1,0 +1,51 @@
+main {
+  @include flex(space-between, stretch);
+  flex-wrap: wrap;
+}
+
+.main-text {
+  width: 36rem;
+  padding-right: 6rem;
+  h2 {
+    font-size: 3rem;
+  }
+  p {
+    margin-top: 1rem;
+    line-height: 1.3rem;
+  }
+}
+
+.star-section {
+  flex: 1 1 30rem;
+  width: 54rem * (5/8);
+  flex-direction: column;
+  @include flex(space-around, flex-end);
+  .star-div {
+    position: relative;
+    background-color: color(light-grayish-magenta);
+    height: 5.6rem * (5/8);
+    width: 44.5rem * (5/8);
+    display: flex;
+    align-items: center;
+    border-radius: 0.5rem * (5/8);
+    .stars {
+      display: inline-block;
+      margin: 0 2.8rem * (5/8);
+      img {
+        margin: 0 0.2rem * (5/8);
+      }
+    }
+    h3 {
+      display: inline-block;
+      font-size: 1.5rem * (5/8);
+    }
+  }
+}
+
+.reviews {
+  transform: translateX(-21%);
+}
+
+.report-guru {
+  transform: translateX(-10.5%);
+}

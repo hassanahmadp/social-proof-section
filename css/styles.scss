@@ -9,6 +9,12 @@ $colors: (
     @return map-get($colors, $color);
 }
 
+@mixin flex($just,$align) {
+    display: flex;
+    justify-content: $just;
+    align-items: $align;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -21,8 +27,29 @@ html {
 }
 
 body {
+    overflow: hidden;
     height: 100vh;
     width: 100vw;
     padding: (12.8rem * (5/8)) 11.46%;
 }
 
+.desktop-background {
+    position: absolute;
+}
+
+.mobile-background {
+    position: absolute;
+    display: none;
+}
+
+.top {
+    top: 0;
+    left: 0;
+}
+
+.bottom {
+    bottom: 0;
+    right: 0;
+}
+
+@import "./main";

@@ -11,8 +11,113 @@ html {
 }
 
 body {
+  overflow: hidden;
   height: 100vh;
   width: 100vw;
   padding: 8rem 11.46%;
+}
+
+.desktop-background {
+  position: absolute;
+}
+
+.mobile-background {
+  position: absolute;
+  display: none;
+}
+
+.top {
+  top: 0;
+  left: 0;
+}
+
+.bottom {
+  bottom: 0;
+  right: 0;
+}
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.main-text {
+  width: 36rem;
+  padding-right: 6rem;
+}
+
+.main-text h2 {
+  font-size: 3rem;
+}
+
+.main-text p {
+  margin-top: 1rem;
+  line-height: 1.3rem;
+}
+
+.star-section {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 30rem;
+          flex: 1 1 30rem;
+  width: 33.75rem;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.star-section .star-div {
+  position: relative;
+  background-color: #f7f2f7;
+  height: 3.5rem;
+  width: 27.8125rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 0.3125rem;
+}
+
+.star-section .star-div .stars {
+  display: inline-block;
+  margin: 0 1.75rem;
+}
+
+.star-section .star-div .stars img {
+  margin: 0 0.125rem;
+}
+
+.star-section .star-div h3 {
+  display: inline-block;
+  font-size: 0.9375rem;
+}
+
+.reviews {
+  -webkit-transform: translateX(-21%);
+          transform: translateX(-21%);
+}
+
+.report-guru {
+  -webkit-transform: translateX(-10.5%);
+          transform: translateX(-10.5%);
 }
 /*# sourceMappingURL=styles.css.map */
