@@ -11,6 +11,7 @@ html {
 }
 
 body {
+  position: relative;
   height: 100vh;
   width: 100vw;
   padding: 8.53333rem 11.46%;
@@ -52,13 +53,13 @@ h3 {
 
 @media (max-width: 475px) {
   html {
-    font-size: 11px;
+    font-size: 13px;
   }
 }
 
 @media (max-width: 355px) {
   html {
-    font-size: 10px;
+    font-size: 9px;
   }
 }
 
@@ -74,6 +75,7 @@ main {
           align-items: stretch;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  overflow: hidden;
 }
 
 .main-text {
@@ -83,6 +85,7 @@ main {
 
 .main-text h2 {
   font-size: 3rem;
+  font-weight: 700;
   color: #502050;
 }
 
@@ -155,6 +158,9 @@ main {
     text-align: center;
     width: 100%;
     padding: 0;
+  }
+  .main-text h2 {
+    font-size: 2.7rem;
   }
   .star-section {
     margin-top: 3rem;
@@ -260,7 +266,7 @@ section.customer-reviews {
 .review-div .intro .review-status {
   color: #ee68a4;
   font-weight: 400;
-  margin-top: .3rem;
+  margin-top: 0.3rem;
 }
 
 .review-div p {
@@ -277,5 +283,34 @@ section.customer-reviews {
 .review-3 {
   -webkit-transform: translateY(13.68%);
           transform: translateY(13.68%);
+}
+
+@media (max-width: 1362px) {
+  section.customer-reviews {
+    margin-top: 5.33333rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .review-div {
+    margin: 1.5rem 0;
+    width: 100%;
+  }
+  .review-2 {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  .review-3 {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
 }
 /*# sourceMappingURL=styles.css.map */

@@ -28,12 +28,12 @@ section.customer-reviews {
     .review-status {
       color: color(soft-pink);
       font-weight: 400;
-      margin-top: .3rem;
+      margin-top: 0.3rem;
     }
   }
   p {
     font-weight: 400;
-    font-size: 1.3rem *(2/3);
+    font-size: 1.3rem * (2/3);
     line-height: 1.5rem;
     // color: color(dark-grayish-magenta);
   }
@@ -43,5 +43,25 @@ section.customer-reviews {
   transform: translateY(6.84%);
 }
 .review-3 {
-  transform: translateY(6.84%*2);
+  transform: translateY(6.84% * 2);
+}
+
+@media (max-width: 1362px) {
+  section.customer-reviews {
+    margin-top: 8rem * (2/3);
+    @include flex(center, center);
+    flex-wrap: wrap;
+  }
+
+  .review-div {
+    margin: 1.5rem 0;
+    width: 100%;
+  }
+
+  .review-2 {
+    transform: translateY(0);
+  }
+  .review-3 {
+    transform: translateY(0);
+  }
 }
