@@ -58,5 +58,15 @@ h3 {
   font-size: 1.5rem * (2/3);
 }
 
+@media (max-width: 650px) {
+  .desktop-background {
+    display: none;
+  }
+
+  .mobile-background {
+    display: block;
+  }
+}
+
 @import "./main";
 @import "./reviews";

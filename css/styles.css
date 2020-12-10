@@ -42,6 +42,15 @@ h3 {
   font-size: 1rem;
 }
 
+@media (max-width: 650px) {
+  .desktop-background {
+    display: none;
+  }
+  .mobile-background {
+    display: block;
+  }
+}
+
 main {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -141,6 +150,8 @@ section.customer-reviews {
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .review-div {

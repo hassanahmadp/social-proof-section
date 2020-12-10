@@ -1,6 +1,7 @@
 section.customer-reviews {
   margin-top: 8rem * (2/3);
   @include flex(space-between, flex-start);
+  flex-wrap: wrap;
 }
 
 .review-div {
