@@ -1,21 +1,23 @@
 section.customer-reviews {
+  margin-top: 8rem * (2/3);
+  @include flex(space-between, flex-start);
 }
 
 .review-div {
   color: white;
   background-color: color(very-dark-magenta);
-  height: 23.4rem * (5/8);
-  width: 35rem * (5/8);
-  padding: 4rem * (5/8) 3rem * (5/8);
+  height: 23.4rem * (2/3);
+  width: 35rem * (2/3);
+  padding: 4rem * (2/3) 3rem * (2/3);
   border-radius: 8px;
   .intro {
     width: 100%;
     height: auto;
-    margin-bottom: 3.6rem * (5/8);
+    margin-bottom: 3.6rem * (2/3);
     img {
-      margin-right: 2rem * (5/8);
-      height: 4.2rem * (5/8);
-      width: 4.2rem * (5/8);
+      margin-right: 2rem * (2/3);
+      height: 4.2rem * (2/3);
+      width: 4.2rem * (2/3);
       border-radius: 50%;
       float: left;
     }

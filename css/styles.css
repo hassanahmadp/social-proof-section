@@ -14,7 +14,7 @@ body {
   overflow: hidden;
   height: 100vh;
   width: 100vw;
-  padding: 8rem 11.46%;
+  padding: 8.53333rem 11.46%;
 }
 
 .desktop-background {
@@ -39,7 +39,7 @@ body {
 }
 
 h3 {
-  font-size: 0.9375rem;
+  font-size: 1rem;
 }
 
 main {
@@ -68,15 +68,15 @@ main {
 
 .main-text p {
   margin-top: 1rem;
-  line-height: 1.3rem;
+  line-height: 1.7rem;
 }
 
 .star-section {
   -webkit-box-flex: 1;
       -ms-flex: 1 1 30rem;
           flex: 1 1 30rem;
-  width: 33.75rem;
-  width: 12.5rem;
+  width: 36rem;
+  height: 13.33333rem;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -84,8 +84,9 @@ main {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;
@@ -94,24 +95,24 @@ main {
 .star-section .star-div {
   position: relative;
   background-color: #f7f2f7;
-  height: 3.5rem;
-  width: 27.8125rem;
+  height: 3.73333rem;
+  width: 29.66667rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  border-radius: 0.5rem;
+  border-radius: 0.53333rem;
 }
 
 .star-section .star-div .stars {
   display: inline-block;
-  margin: 0 1.75rem;
+  margin: 0 1.86667rem;
 }
 
 .star-section .star-div .stars img {
-  margin: 0 0.125rem;
+  margin: 0 0.13333rem;
 }
 
 .star-section .star-div h3 {
@@ -129,25 +130,38 @@ main {
           transform: translateX(-10.5%);
 }
 
+section.customer-reviews {
+  margin-top: 5.33333rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
 .review-div {
   color: white;
   background-color: #502050;
-  height: 14.625rem;
-  width: 21.875rem;
-  padding: 2.5rem 1.875rem;
+  height: 15.6rem;
+  width: 23.33333rem;
+  padding: 2.66667rem 2rem;
   border-radius: 8px;
 }
 
 .review-div .intro {
   width: 100%;
   height: auto;
-  margin-bottom: 2.25rem;
+  margin-bottom: 2.4rem;
 }
 
 .review-div .intro img {
-  margin-right: 1.25rem;
-  height: 2.625rem;
-  width: 2.625rem;
+  margin-right: 1.33333rem;
+  height: 2.8rem;
+  width: 2.8rem;
   border-radius: 50%;
   float: left;
 }
