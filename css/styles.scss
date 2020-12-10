@@ -27,7 +27,7 @@ html {
 }
 
 body {
-  overflow: hidden;
+  // overflow: hidden;
   height: 100vh;
   width: 100vw;
   padding: (12.8rem * (2/3)) 11.46%;
@@ -67,6 +67,17 @@ h3 {
     display: block;
   }
 }
+@media (max-width: 475px) {
+  html {
+    font-size: 11px;
+  }
+}
+@media (max-width: 355px) {
+  html {
+    font-size: 10px;
+  }
+}
+
 
 @import "./main";
 @import "./reviews";

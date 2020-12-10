@@ -11,7 +11,6 @@ html {
 }
 
 body {
-  overflow: hidden;
   height: 100vh;
   width: 100vw;
   padding: 8.53333rem 11.46%;
@@ -48,6 +47,18 @@ h3 {
   }
   .mobile-background {
     display: block;
+  }
+}
+
+@media (max-width: 475px) {
+  html {
+    font-size: 11px;
+  }
+}
+
+@media (max-width: 355px) {
+  html {
+    font-size: 10px;
   }
 }
 
@@ -137,6 +148,71 @@ main {
 .report-guru {
   -webkit-transform: translateX(-10.5%);
           transform: translateX(-10.5%);
+}
+
+@media (max-width: 1284px) {
+  .main-text {
+    text-align: center;
+    width: 100%;
+    padding: 0;
+  }
+  .star-section {
+    margin-top: 3rem;
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 30rem;
+            flex: 1 1 30rem;
+    height: auto;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .star-section .star-div {
+    margin-bottom: 1.06667rem;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .star-section .star-div .stars {
+    display: block;
+    margin: 0 1.86667rem;
+  }
+  .star-section .star-div .stars img {
+    margin: 0 0.13333rem;
+  }
+  .star-section .star-div h3 {
+    text-align: center;
+    margin-top: .2rem;
+    width: 100%;
+    color: #502050;
+    display: block;
+  }
+  .reviews {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  .report-guru {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
 }
 
 section.customer-reviews {

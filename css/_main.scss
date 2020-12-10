@@ -52,3 +52,49 @@ main {
 .report-guru {
   transform: translateX(-10.5%);
 }
+
+
+@media (max-width: 1284px) {
+  .main-text {
+    text-align: center;
+    width: 100%;
+    padding: 0;
+  }
+
+  .star-section {
+    margin-top: 4.5rem *(2/3);
+    flex: 1 1 30rem;
+    // width: 100%;
+    height: auto;
+    flex-direction: column;
+    @include flex(center, center);
+    .star-div {
+      margin-bottom: 1.6rem * (2/3);
+      width: 100%;
+      @include flex(center,center);
+      flex-wrap: wrap;
+      .stars {
+        display: block;
+        margin: 0 2.8rem * (2/3);
+        img {
+          margin: 0 0.2rem * (2/3);
+        }
+      }
+      h3 {
+        text-align: center;
+        margin-top: .2rem;
+        width: 100%;
+        color: color(very-dark-magenta);
+        display: block;
+      }
+    }
+  }
+
+  .reviews {
+    transform: translateX(0);
+  }
+
+  .report-guru {
+    transform: translateX(0);
+  }
+}
