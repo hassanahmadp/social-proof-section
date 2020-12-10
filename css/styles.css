@@ -166,8 +166,29 @@ section.customer-reviews {
   float: left;
 }
 
+.review-div .intro .name {
+  font-weight: 700;
+}
+
+.review-div .intro .review-status {
+  color: #ee68a4;
+  font-weight: 400;
+  margin-top: .3rem;
+}
+
 .review-div p {
   font-weight: 400;
-  font-size: 1rem;
+  font-size: 0.86667rem;
+  line-height: 1.5rem;
+}
+
+.review-2 {
+  -webkit-transform: translateY(6.84%);
+          transform: translateY(6.84%);
+}
+
+.review-3 {
+  -webkit-transform: translateY(13.68%);
+          transform: translateY(13.68%);
 }
 /*# sourceMappingURL=styles.css.map */
